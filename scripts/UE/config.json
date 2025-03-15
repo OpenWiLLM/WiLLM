@@ -1,0 +1,11 @@
+{
+    "server_url": "http://localhost:11434/api/generate",
+    "mode": "image_request", 
+    "LLM_model": "llava",
+    "explanation_word_count": 100,
+    "capture_resolution": [640, 480],
+    "display_resolution": [800, 600],
+    "gesture_mode": false,
+    "periodic_frequency": 5,
+    "is_stream": false
+}

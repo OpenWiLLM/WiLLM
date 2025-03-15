@@ -1,0 +1,9 @@
+{
+    "server_url": "http://localhost:11434/ollama",
+    "mode": "image_request", 
+    "explanation_word_count": 100,
+    "capture_resolution": [640, 480],
+    "display_resolution": [800, 600],
+    "gesture_mode": true,
+    "periodic_frequency": 5
+}
