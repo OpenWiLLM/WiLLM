@@ -211,13 +211,12 @@ We welcome contributions from the research community! Follow these steps:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is basd on OAI, licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 References
 
 - 📜 Research Paper: To be announced
-- 📂 Dataset: [LLM Wireless Communication Dataset](https://github.com/willmsys/datasets/)
+- 📂 Dataset: [LLM Wireless Communication Dataset](https://mega.nz/folder/dN5QDLZZ#ck8V_Wugqgsd4BstTNXRYg)
 - 🌐 gNB UHD & OAI Tutorial: [NR_SA_Tutorial_COTS_UE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md)
-- 🌐 CN Installation Guide (Zhihu): [https://zhuanlan.zhihu.com/p/471681564](https://zhuanlan.zhihu.com/p/471681564)
 
 💡 **WillmSys aims to accelerate innovation in LLM-powered wireless communication. Join us and contribute to the future of AI-driven networking!** 🚀
