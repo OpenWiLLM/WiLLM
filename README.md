@@ -1,15 +1,15 @@
-# WillmSys: An Open Wireless LLM Communication System
+# WiLLM: An Open Wireless LLM Communication System
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://github.com/willmsys/platform)
-[![Dataset](https://img.shields.io/badge/dataset-available-orange.svg)](https://github.com/willmsys/platform)
+[![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://github.com/willm/platform)
+[![Dataset](https://img.shields.io/badge/dataset-available-orange.svg)](https://github.com/willm/platform)
 
 ## Overview
 <div align="center">
   <img src="logo.png" alt="Overview" width="150">
 </div>
 
-**WillmSys** is the first open-source wireless communication system designed specifically for **Large Language Model (LLM) services**. As LLMs continue to evolve, supporting them in wireless networks presents challenges in **resource allocation, network slicing, and low-latency communication**. WillmSys addresses these challenges by integrating **network slicing, GPU computing, and multi-layer scheduling** into wireless networks.
+**WiLLM** is the first open-source wireless communication system designed specifically for **Large Language Model (LLM) services**. As LLMs continue to evolve, supporting them in wireless networks presents challenges in **resource allocation, network slicing, and low-latency communication**. willm addresses these challenges by integrating **network slicing, GPU computing, and multi-layer scheduling** into wireless networks.
 
 ### 📌 Key Features
 
@@ -22,12 +22,12 @@
   - **Dual-mode scheduling**
   - **Cross-layer APIs**
 - **LLM Wireless Communication Dataset**: Provides **100,000 records** with synchronized **20-dimensional metrics** for performance analysis.
-- **Smart Glasses Case Study**: Demonstrates WillmSys in resource-constrained scenarios.
+- **Smart Glasses Case Study**: Demonstrates WiLLM in resource-constrained scenarios.
 
 ## 📂 Repository Structure
 
 ```
-📁 WillmSys
+📁 WiLLM
 │── 📂 docs/             # Documentation and technical papers
 │── 📂 datasets/         # LLM Wireless Communication Dataset
 │── 📂 src/              # Core system implementation
@@ -61,7 +61,7 @@ The prerequisites vary by component:
 
 #### 1. User Equipment (UE)
 
-WillmSys provides Python-based UE code. Install it as follows:
+WiLLM provides Python-based UE code. Install it as follows:
 
 1. **Clone the repository**
    ```sh
@@ -87,7 +87,7 @@ WillmSys provides Python-based UE code. Install it as follows:
 
 #### 2. gNB (Base Station)
 
-The gNB installation is based on a modified version of OpenAirInterface (OAI) for WillmSys. For detailed guidance, refer to the [NR_SA_Tutorial_COTS_UE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md) document. Key steps include:
+The gNB installation is based on a modified version of OpenAirInterface (OAI) for WiLLM. For detailed guidance, refer to the [NR_SA_Tutorial_COTS_UE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md) document. Key steps include:
 
 1. **Install dependencies**
    ```sh
@@ -106,9 +106,9 @@ The gNB installation is based on a modified version of OpenAirInterface (OAI) fo
      ```
    (For more details, please refer to the UHD section in the NR_SA_Tutorial_COTS_UE document.)
 
-3. **Clone the WillmSys gNB repository**
+3. **Clone the WiLLM gNB repository**
    ```sh
-   git clone https://github.com/willmsys/gNB.git
+   git clone https://github.com/willm/gNB.git
    cd gNB
    ```
 
@@ -134,7 +134,7 @@ The gNB installation is based on a modified version of OpenAirInterface (OAI) fo
 
 #### 3. Core Network (CN) with Edge Server
 
-In WillmSys, the Core Network is implemented using Open5gs (which serves as the CN). The installation follows guidelines similar to those in the Zhihu article: [CN Installation Guide](https://zhuanlan.zhihu.com/p/471681564). A summary of the steps is as follows:
+In WiLLM, the Core Network is implemented using Open5gs (which serves as the CN). The installation follows guidelines similar to those in the Zhihu article: [CN Installation Guide](https://zhuanlan.zhihu.com/p/471681564). A summary of the steps is as follows:
 
 1. **Install prerequisites**
    ```sh
@@ -186,13 +186,13 @@ For detailed instructions, please refer to the [Ollama GitHub repository](https:
 
 ## 📊 Dataset
 
-WillmSys provides the first dataset dedicated to LLM wireless communication, including **100,000 records** with multi-layer synchronized metrics:
+WiLLM provides the first dataset dedicated to LLM wireless communication, including **100,000 records** with multi-layer synchronized metrics:
 
 - **UE Metrics**: Latency, interaction mode, request size, etc.
 - **RAN Metrics**: Throughput, packet loss rate, signal quality, etc.
 - **CN & Edge Server Metrics**: GPU utilization, inference time, resource scheduling, etc.
 
-📥 **[Download Dataset](https://github.com/willmsys/platform/datasets/)**
+📥 **[Download Dataset](https://github.com/willm/platform/datasets/)**
 
 ## 🛠 API Usage
 
@@ -219,4 +219,4 @@ This project is basd on OAI, licensed under the **MIT License** - see the [LICEN
 - 📂 Dataset: [LLM Wireless Communication Dataset](https://mega.nz/folder/dN5QDLZZ#ck8V_Wugqgsd4BstTNXRYg)
 - 🌐 gNB UHD & OAI Tutorial: [NR_SA_Tutorial_COTS_UE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md)
 
-💡 **WillmSys aims to accelerate innovation in LLM-powered wireless communication. Join us and contribute to the future of AI-driven networking!** 🚀
+💡 **WiLLM aims to accelerate innovation in LLM-powered wireless communication. Join us and contribute to the future of AI-driven networking!** 🚀
