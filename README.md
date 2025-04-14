@@ -186,13 +186,13 @@ For detailed instructions, please refer to the [Ollama GitHub repository](https:
 
 ## 📊 Dataset
 
-WiLLM provides the first dataset dedicated to LLM wireless communication, including **100,000 records** with multi-layer synchronized metrics:
+WiLLM provides the first dataset dedicated to LLM wireless communication, including **1,649,996 records** with multi-layer synchronized metrics:
 
 - **UE Metrics**: Latency, interaction mode, request size, etc.
 - **RAN Metrics**: Throughput, packet loss rate, signal quality, etc.
 - **CN & Edge Server Metrics**: GPU utilization, inference time, resource scheduling, etc.
 
-📥 **[Download Dataset](https://github.com/willm/platform/datasets/)**
+📥 **[Download Dataset](https://mega.nz/folder/dN5QDLZZ#ck8V_Wugqgsd4BstTNXRYg/folder/pdgkHbrR)**
 
 ## 🛠 API Usage
 
@@ -207,11 +207,10 @@ We welcome contributions from the research community! Follow these steps:
 2. Implement your feature or bug fix.
 3. Submit a pull request (PR) with a clear description.
 
-📜 **Please read the [Contribution Guide](CONTRIBUTING.md) before submitting PRs.**
 
 ## 📄 License
 
-This project is basd on OAI, licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is basd on OAI, licensed under the **MIT License**.
 
 ## 🔗 References
 
