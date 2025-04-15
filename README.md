@@ -133,9 +133,6 @@ The gNB installation is based on a modified version of OpenAirInterface (OAI) fo
    ```
 
 #### 3. Core Network (CN) with Edge Server
-
-In WiLLM, the Core Network is implemented using Open5gs (which serves as the CN). The installation follows guidelines similar to those in the Zhihu article: [CN Installation Guide](https://zhuanlan.zhihu.com/p/471681564). A summary of the steps is as follows:
-
 1. **Install prerequisites**
    ```sh
    sudo apt update
