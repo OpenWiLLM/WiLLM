@@ -1,4 +1,4 @@
-# WiLLM: An Open Wireless LLM Communication System
+# WiLLM: an Open Framework for LLM Services over Wireless Systems
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://github.com/willm/platform)
